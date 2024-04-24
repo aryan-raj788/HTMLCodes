@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <label for="male">Male</label>
+        <input type="radio" name="radio" value="Male" id="male">
+        <label for="female">Female</label>
+        <input type="radio" name="radio" value="Female" id="female">
+    </div>
+    <textarea></textarea>
+    <fieldset>
+        <legend>Do you Know my name?</legend>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" name="radio" value="Male" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="radio" value="Female" id="female">
+        </div>
+    </fieldset>
+    <svg width="300" height="200">
+        <polygon points="100,10 40,198 190,78 10,78 160,198"
+        style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+      </svg>
+
+      <canvas id="myCanvas">
+        Your browser does not support the canvas tag.
+        </canvas>
+        
+        <script>
+        let c = document.getElementById("myCanvas");
+        let ctx = c.getContext("2d");
+        ctx.fillStyle = "red";
+        ctx.fillRect(20, 20, 75, 50);
+        //Turn transparency on
+        ctx.globalAlpha = 0.2;
+        ctx.fillStyle = "blue";
+        ctx.fillRect(50, 50, 75, 50);
+        ctx.fillStyle = "green";
+        ctx.fillRect(80, 80, 75, 50);
+        </script>
+
+    <div style="background-color: blue;"  >
+        <div >
+            <h1>Aryan Raj</h1>
+        </div>
+        <div>
+            <h1>Saloni Singh</h1>
+        </div>
+    </div>    
+</body>
+</html>
